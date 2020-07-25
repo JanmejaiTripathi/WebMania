@@ -259,8 +259,33 @@ label:hover{
     margin-top: 15px;
   }
   .quiz-container{
-    min-height: 400px;
+    min-height: 350px;
     overflow: hidden;
+  }
+  .active-slide{
+    height: auto;
+  }
+  .question{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .answers {
+    font-size: large;
+    margin-bottom: 10px;
+    /* display: inline-block; */
+  }
+  .answers label{
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  button{
+      font-size: 12px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+  }
+  .inside-main{
+    padding: 0px;
   }
   
 }
